@@ -6,7 +6,7 @@
 # Upgrade the game once more: now we play several rounds for each game. The first player to win two rounds wins the game. (Still with two dice each.)
 
 def roll
-  rand(1..6) + rand(1..6)
+  rand(1..7) + rand(1..7)
 end
 
 player1_score = roll
