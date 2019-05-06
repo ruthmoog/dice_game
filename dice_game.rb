@@ -23,4 +23,6 @@ until player1_score == 2 || player2_score == 2 do
     player2_score += 1
   end
 end
+
+puts "The winner is #{player1_score > player2_score ? 'player 1' : 'player 2'}!"
 puts "p1: #{player1_score} points | p2: #{player2_score} points"
